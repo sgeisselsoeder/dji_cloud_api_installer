@@ -6,10 +6,10 @@ Works on x86, not on arm v7 or arm v8 cpus (unfortunatelly no raspberries).
 ## howto
 
 sudo apt install wget unzip docker-compose  
-source main.sh  
+source install.sh  
 
 if everything worked, run the following command in the created subfolder cloud_api_sample to start the docker containers:  
-sudo docker-compose up -d  
+source start.sh
 
 ## result
 
