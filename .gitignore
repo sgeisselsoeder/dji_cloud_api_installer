@@ -1,0 +1,5 @@
+*.tar
+*.zip
+cloud_api_sample
+*MACOSX*
+CREDENTIALS.sh
