@@ -30,5 +30,7 @@ echo "Please enter your password to continue."
 ./update_backend.sh
 ./update_front.sh
 
+sed -i -e "s/8080:8080/8089:8080/g" docker-compose.yml
+
 echo "if everything worked, run the following command to start the docker containers"
 echo "source start.sh"
